@@ -17,5 +17,10 @@ namespace AppNet15
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            this.BackgroundColor = Color.DarkSalmon;
+        }
     }
 }
